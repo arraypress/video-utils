@@ -1,0 +1,42 @@
+{
+  "name": "@arraypress/video-utils",
+  "version": "1.0.0",
+  "description": "Parse + embed video URLs from YouTube, Vimeo, TikTok, Instagram, SoundCloud, Spotify, Twitch, Loom, Wistia, Streamable. Zero deps.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test tests/video-utils.test.js"
+  },
+  "keywords": [
+    "video",
+    "embed",
+    "youtube",
+    "vimeo",
+    "tiktok",
+    "instagram",
+    "soundcloud",
+    "spotify",
+    "twitch",
+    "loom",
+    "wistia",
+    "streamable",
+    "iframe",
+    "oembed"
+  ],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arraypress/video-utils"
+  }
+}
